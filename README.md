@@ -2,6 +2,17 @@
 
 Unlock tool for the NVIDIA CMP 170HX (GA100) mining card. Restores full SM compute throughput and unlocked HBM2e memory geometry that are restricted in firmware/OTP configuration.
 
+---
+## Provenance & Attribution
+
+**This is a personal fork of [cmpunlocker](https://github.com/amoghmunikote/cmpunlocker) by [Amogh Munikote](https://github.com/amoghmunikote), maintained for personal use. No upstream code is claimed as the fork owner's work.**
+
+- Original project: [amoghmunikote/cmpunlocker](https://github.com/amoghmunikote/cmpunlocker) — original author Amogh Munikote. All upstream code remains the work of its respective authors.
+- Contributor work is included under its original authorship; see [CREDITS.md](CREDITS.md) (MeatKO — DKMS removal; asm64-hooligan — full BAR1 64GB; armand0e — late PMA extension, keep the high reserved region reserved for WPR2, upstream PR #32).
+- The patches in `driver/patches/` are applied to NVIDIA `open-gpu-kernel-modules` sources, which remain under their own license/copyright.
+- The project `LICENSE` (GNU GPL v2) applies and is unchanged.
+- **AI-assisted work:** modifications made in this fork (including this notice) were produced with AI/LLM tooling assistance.
+
 
 **[Join our Discord community](https://discord.gg/CdHSakKSFv)** for support and discussions.
 
